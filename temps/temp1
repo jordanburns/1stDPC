@@ -6,5 +6,17 @@
   		<link type="text/css" rel="stylesheet" href="styles/mystyle.css" media=screen">
     </head>
 <body>
+	<h1> Diversified Plastics Coorporation </h1>
+	
+	<ul>
+   <li><a href="index.html"><span>Home</span></a></li>
+   <li class='active has-sub'><a href="product.html"><span>Products</span></a>
+     
+	 <ul>
+         <li class='has-sub'><a href="automotive.html"><span>Automotive</span></a>
+            </ul>
+               </li>
+         
+  
 </body>
 </html>
