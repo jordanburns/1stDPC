@@ -10,4 +10,20 @@ h1 {
 
 ul#nav{
   list-style-type: none;
+  background-color: #333333;
 }
+
+li{
+  display: inline;
+  float: left;
+}
+
+a{
+  display: block;
+    padding: 8px;
+    background-color: #333333;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
