@@ -19,6 +19,7 @@ ul#nav{
 
 li {
     clear: left;
+    width: 10%;
 }
 
 li a {
@@ -27,7 +28,6 @@ li a {
     text-align: center; 
     padding: 10px 12px;
     text-decoration: none;
-    width: 10%;
 }
 
 /* Change the link color to #111 (black) on hover */
