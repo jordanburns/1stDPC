@@ -18,13 +18,13 @@ ul#nav{
 }
 
 li {
-    float: left;
+    clear: left;
 }
 
 li a {
     display: block;
     color: white;
-    text-align: left; 
+    text-align: center; 
     padding: 10px 12px;
     text-decoration: none;
 }
