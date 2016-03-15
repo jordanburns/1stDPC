@@ -8,39 +8,7 @@ h1 {
   text-align: center;
 }
 
-ul#nav{
-  background-color: #333333;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  width: 30%;
-}
 
-li {
-    float: left;
-    width: 100%;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center; 
-    padding: 10px 12px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #000000;
-
-nav ul ul {
-	display: none;
-}
-
-	nav ul li:hover > ul {
-		display: block;
-	}
 /*Horizontal Navigation Bar*/
 #cssmenu,
 #cssmenu ul,
