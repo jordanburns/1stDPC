@@ -171,3 +171,58 @@ h1 {
 #cssmenu > ul > li.has-sub > a:hover:before {
   border-top: 5px solid #ffffff;
 }
+
+/*logo code starts here*/
+
+#header
+{
+background-image:url('menubg.png');
+background-repeat:repeat-x;
+clear: both;
+overflow: auto;
+}
+#logo
+{
+display:inline-block;
+}
+#menu ul
+{
+display:inline-block;
+list-style-type:none;
+padding: 0px;
+margin:0px;
+}
+
+#menu {
+    float:right;    
+}
+#menu li
+{
+display:inline-block;
+margin:0px;
+padding:0px;
+}
+
+#menu a:link,a:visited
+{
+display:inline-block;
+text-transform:lowercase;
+width:auto;
+font-weight:bold;
+padding-left:47.5px;
+padding-right:47.5px;
+padding-top:9px;
+padding-bottom:9px;
+text-decoration:none;
+color:#57fafc;
+text-align:center;
+background-color:#62d2d3;
+}
+
+#menu a:hover,a:active
+{
+background-color:#7ce5e6;
+}
+#logo {
+    float:left;
+}
