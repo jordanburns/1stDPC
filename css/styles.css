@@ -214,14 +214,14 @@ padding-right:47.5px;
 padding-top:9px;
 padding-bottom:9px;
 text-decoration:none;
-color:#57fafc;
+color:#FFFFFF;
 text-align:center;
-background-color:#62d2d3;
+background-color:#333333;
 }
 
 #menu a:hover,a:active
 {
-background-color:#7ce5e6;
+background-color:#333333;
 }
 #logo {
     float:left;
