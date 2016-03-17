@@ -43,6 +43,7 @@ h1 {
 }
 #cssmenu.align-center > ul {
   text-align: center;
+  width: 100%;
 }
 #cssmenu.align-center > ul > li {
   float: none;
@@ -67,7 +68,6 @@ h1 {
   border-right: 1px solid #080808;
   color: #ffffff;
   padding: 12px 20px;
-  width: 100%;
 }
 #cssmenu > ul > li:first-child > a {
   border-radius: 5px 0 0 5px;
@@ -80,7 +80,7 @@ h1 {
   bottom: -1px;
   right: -2px;
   z-index: 99;
-  border-color: #3c3c3c;
+  border-color: #333333;
 }
 #cssmenu ul li.has-sub:hover > a:after {
   top: 0;
