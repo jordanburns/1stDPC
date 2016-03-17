@@ -67,6 +67,7 @@ h1 {
   border-right: 1px solid #080808;
   color: #ffffff;
   padding: 12px 20px;
+  width: 100px;
 }
 #cssmenu > ul > li:first-child > a {
   border-radius: 5px 0 0 5px;
