@@ -65,7 +65,7 @@ h1 {
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   border-right: 1px solid #080808;
-  color: #ffffff;
+  color: #333333;
   padding: 12px 20px;
   width: 130px;
 }
@@ -100,7 +100,7 @@ h1 {
 #cssmenu > ul > li.has-sub:hover > a {
   padding-bottom: 14px;
   z-index: 999;
-  border-color: #3f3f3f;
+  border-color: #333333;
 }
 #cssmenu ul li.has-sub:hover > ul,
 #cssmenu ul li.has-sub:hover > div {
