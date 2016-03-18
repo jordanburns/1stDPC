@@ -100,7 +100,7 @@ h1 {
 #cssmenu > ul > li.has-sub:hover > a {
   padding-bottom: 14px;
   z-index: 999;
-  border-color: #333333;
+  border-color: #FFFFFF;
 }
 #cssmenu ul li.has-sub:hover > ul,
 #cssmenu ul li.has-sub:hover > div {
