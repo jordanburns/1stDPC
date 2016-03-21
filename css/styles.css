@@ -23,7 +23,7 @@ h1 {
   display: block;
   border: 1px solid;
   border-radius: 5px;
-  width: auto;
+  width: 100%;
   border-color: #080808;
   margin: 0;
   padding: 0;
