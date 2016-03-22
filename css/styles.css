@@ -58,7 +58,8 @@ h1 {
   position: relative;
   margin: 0;
   padding: 0;
-  z-index:100;
+  margin-left: auto;
+  margin-right: auto;
 }
 #cssmenu.align-center > ul {
   text-align: center;
