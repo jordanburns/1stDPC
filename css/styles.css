@@ -50,6 +50,7 @@ h1 {
   list-style: inside none;
   margin: 0;
   padding: 0;
+  margin: 0 auto;
 }
 #cssmenu > ul > li {
   list-style: inside none;
