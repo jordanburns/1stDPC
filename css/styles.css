@@ -50,7 +50,6 @@ h1 {
   list-style: inside none;
   margin: 0;
   padding: 0;
-  margin: 0 auto;
 }
 #cssmenu > ul > li {
   list-style: inside none;
@@ -95,7 +94,7 @@ h1 {
 }
 #cssmenu > ul > li > a:after {
   content: "";
-  position: absolute;
+  position: fixed;
   border-right: 1px solid;
   top: -1px;
   bottom: -1px;
@@ -109,7 +108,7 @@ h1 {
 }
 #cssmenu > ul > li.has-sub > a:before {
   content: "";
-  position: absolute;
+  position: fixed;
   top: 18px;
   right: 6px;
   border: 5px solid transparent;
@@ -136,7 +135,7 @@ h1 {
 #cssmenu ul li > div {
   display: none;
   width: auto;
-  position: absolute;
+  position: fixed;
   top: 38px;
   background: #3f3f3f;
   border-radius: 0 0 5px 5px;
@@ -147,7 +146,7 @@ h1 {
   width: auto;
 }
 #cssmenu ul ul ul {
-  position: absolute;
+  position: fixed;
 }
 #cssmenu ul ul li:hover > ul {
   left: 100%;
