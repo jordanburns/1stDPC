@@ -24,6 +24,8 @@ h1 {
     margin-top: -13px; /* 1/2 height */
     background: #ce0000;
     background: rgba(170, 0, 0, 0.8); /* CSS3 */
+    vertical-align:middle;
+    line-height:200px;
 }
 
 
