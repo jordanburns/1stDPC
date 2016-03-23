@@ -94,7 +94,7 @@ h1 {
 }
 #cssmenu > ul > li > a:after {
   content: "";
-  position: fixed;
+  position: absolute;
   border-right: 1px solid;
   top: -1px;
   bottom: -1px;
@@ -108,7 +108,7 @@ h1 {
 }
 #cssmenu > ul > li.has-sub > a:before {
   content: "";
-  position: fixed;
+  position: absolute;
   top: 18px;
   right: 6px;
   border: 5px solid transparent;
@@ -135,7 +135,7 @@ h1 {
 #cssmenu ul li > div {
   display: none;
   width: auto;
-  position: fixed;
+  position: absolute;
   top: 38px;
   background: #3f3f3f;
   border-radius: 0 0 5px 5px;
@@ -146,7 +146,7 @@ h1 {
   width: auto;
 }
 #cssmenu ul ul ul {
-  position: fixed;
+  position: absolute;
 }
 #cssmenu ul ul li:hover > ul {
   left: 100%;
