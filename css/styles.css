@@ -26,6 +26,12 @@ h1 {
     background: rgba(170, 0, 0, 0.8); /* CSS3 */
 }
 
+#menubackground{
+background-color:#254861;
+width:100%;
+height:43px;
+background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+}
 
 #cssmenu,
 #cssmenu ul,
@@ -40,11 +46,15 @@ h1 {
   height: 39px;
   display: block;
   border: 1px solid;
-  border-radius: 5px;
-  width: 100%;
+  width: 780px;
   border-color: #080808;
   margin: 0 auto;
   padding: 0;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -43px; /* 1/2 height */
 }
 #cssmenu > ul {
   list-style: inside none;
