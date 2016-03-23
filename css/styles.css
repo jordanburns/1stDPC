@@ -302,7 +302,7 @@ background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
 {
     width:11px; height:11px;
     font-size:0;color:White;/*hide the index number in the bullet element*/
-    background:transparent url(/bullet.png) no-repeat 0 0;
+    background:transparent url(../bullet.png) no-repeat 0 0;
     display:inline-block; *display:inline; zoom:1;
     overflow:hidden;cursor:pointer;
     margin:0 6px;/* set distance between each bullet*/
