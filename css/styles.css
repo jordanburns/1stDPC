@@ -290,7 +290,7 @@ background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
 /* ------ built-in navigation bullets wrapper ------*/
 /* Note: check themes\2\js-image-slider.css to see how to hide nav bullets */
 #slider div.navBulletsWrapper  {
-    top:320px;/* Its position is relative to the #slider */
+    top:605px;/* Its position is relative to the #slider */
 	text-align:center;
 	background:none;
 	position:relative;
