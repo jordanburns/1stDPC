@@ -45,6 +45,7 @@ h1 {
   border-color: #080808;
   margin: 0 auto;
   padding: 0;
+  text-align: center;
 }
 #cssmenu > ul {
   list-style: inside none;
@@ -213,7 +214,7 @@ h1 {
 	background:#fff url(loading.gif) no-repeat 50% 50%;
 	position:relative;
 	margin:0 auto; /*center-aligned*/
-    transform: translated(0,0,0);
+    transform: translate3d(0,0,0);
     box-shadow: 0px 1px 5px #999999;
 }
 
