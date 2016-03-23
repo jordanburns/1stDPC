@@ -29,7 +29,7 @@ ul > li > #first{
 	margin-left:77px;
 }
 #small_logo{
-  position: absolute;
+  position: relative;
   top: 1%;
   left: 0;
   right: 0;
