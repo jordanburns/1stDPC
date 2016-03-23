@@ -37,6 +37,7 @@ ul > li > #first{
   margin: 0;
   margin-top: 0px;
   width:77px;
+  border-right: 1px solid #080808;
   }
 
 #menubackground{
