@@ -3,6 +3,10 @@ body {
   max-width: 1600px;
 }
 
+div.main {
+	margin-top: 43px;
+}
+
 #pagewrap {
      
      margin: 0 auto;
@@ -342,6 +346,3 @@ Open with
 2 of 5 items
 bullet.pngjs-image-slider.cssjs-image-slider.jsloading.gifThumbs.db
 
-div.main {
-	margin-top: 43px;
-}
