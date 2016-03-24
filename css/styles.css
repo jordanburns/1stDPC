@@ -20,7 +20,7 @@ h1 {
   /*THIS MAKES H1 FLOAT OVER SLIDESHOW*/
     z-index: 2;
     position: relative;
-    top: 1%;
+    top: 60px;
     left: 0;
     right: 0;
     width: 100%;
