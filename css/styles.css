@@ -21,7 +21,7 @@ h1 {
     width: 100%;
     padding: 0;
     margin: 0;
-    margin-top: 80px; /* 1/2 height */
+    margin-top: -13px; /* 1/2 height */
     background: #ce0000;
     background: rgba(170, 0, 0, 0.8); /* CSS3 */
 }
