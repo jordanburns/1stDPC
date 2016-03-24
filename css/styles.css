@@ -14,8 +14,8 @@ h1.title {
   
   /*THIS MAKES H1 FLOAT OVER SLIDESHOW*/
     z-index: 2;
-    position: absolute;
-    top: 1%;
+    position: relative;
+    top: 2%;
     left: 0;
     right: 0;
     width: 100%;
