@@ -1,6 +1,7 @@
 body {
-  background-color:white;
   max-width: 1600px;
+  background-color: #ffffff;
+  padding: 1.25em; /* 20 */
 }
 
 #pagewrap {
