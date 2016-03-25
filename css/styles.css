@@ -76,6 +76,9 @@ h1 {
 			}
 
 			/* first level */
+			#nv > ul > .clearfix{
+				margin:0;
+			}
 
 			#nav > ul
 			{ 
