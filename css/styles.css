@@ -29,6 +29,7 @@ h1 {
 		#nav
 		{
 			width: 60em; /* 1000 */
+			height: 60px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: 100;
 			position: absolute;
