@@ -243,6 +243,7 @@ h1 {
     display: block;
     list-style-type: disc;
         -webkit-padding-start: 0px;
+        -webkit-margin-before: 0em;
 		}
 /* http://www.menucool.com */
 
