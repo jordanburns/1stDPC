@@ -36,7 +36,7 @@ h1 {
 			position: relative;
 			top: 0%;
 			left: 0%;
-			margin-left: 0em; /* 30 480 */
+			margin: 0 auto; /* 30 480 */
 			z-index:3;
 		}
 
