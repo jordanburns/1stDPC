@@ -20,8 +20,10 @@ h1 {
   font-family:'Phosphate Pro', serif;
   text-align: center;
   background-color:#aa0000;
+  }
   
-  
+#logo{
+  margin: 0 auto;
 }
 /*-- NAV BAR --*/
 /*
@@ -351,7 +353,7 @@ h1 {
     background:transparent url(loading.gif) no-repeat 50% 50%;
     filter: alpha(opacity=60);
     opacity:0.6;
-    position:absolute;
+    position:relative;
     left:0;
     top:0; 
     z-index:9;
