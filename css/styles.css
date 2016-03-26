@@ -297,7 +297,7 @@ h1 {
 	left:0px; /*if the caption needs to be aligned from right, specify by right instead of left. i.e. right:20px;*/
 	bottom:0px;/*if the caption needs to be aligned from top, specify by top instead of bottom. i.e. top:150px;*/
 	z-index:3;
-	overflow:hidden;
+	overflow:none;
 	font-size: 0;
 }
 #slider div.mc-caption-bg 
