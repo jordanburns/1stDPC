@@ -290,6 +290,7 @@ h1 {
 /* Caption styles */
 #slider div.mc-caption-bg, #slider div.mc-caption-bg2 {
 	position:relative;
+	top:90%;
 	width:100%;
 	height:auto;
 	padding:10px 0;/* 10px will increase the height.*/
