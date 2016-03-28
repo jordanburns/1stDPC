@@ -25,6 +25,8 @@ h1 {
 #logo{
   width:5%;
   margin: 0;
+  display:inline;
+  float:left;
   background-image: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);
   background: linear-gradient(top, #3c3c3c 0%, #222222 100%);
   background: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);
