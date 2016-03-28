@@ -22,7 +22,7 @@ h1 {
   background-color:#aa0000;
   }
   
-#logo{
+nav > ul > #logo{
   margin: 0 auto;
 }
 /*-- NAV BAR --*/
