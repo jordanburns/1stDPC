@@ -86,7 +86,10 @@ h1 {
 			{ 
 				height: 3.75em; /* 60 */
 				list-style-type: none;
+				background: linear-gradient(top, #3c3c3c 0%, #222222 100%);
+				background: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);
 				background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+        }
 			}
 				#nav > ul > li
 				{
