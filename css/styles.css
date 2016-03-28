@@ -42,6 +42,7 @@ h1 {
 			margin: 0 auto; /* 30 480 */
 			z-index:11;
 			float:left;
+			display:inline;
 		}
 
 			#nav > a
