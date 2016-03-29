@@ -6,6 +6,11 @@ body {
   color: white;
 }
 
+div.info {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 24pt;
+}
+
 #pagewrap {
      
      margin: 0 auto;
