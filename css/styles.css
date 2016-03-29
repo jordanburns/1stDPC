@@ -6,6 +6,10 @@ body {
   color: white;
 }
 
+.div2{
+	color:white;
+	font-family:Tahoma, Geneva, sans-serif;
+}
 #pagewrap {
      
      margin: 0 auto;
