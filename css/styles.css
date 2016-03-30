@@ -6,6 +6,25 @@ body {
   color: white;
 }
 
+div.product {
+  margin: 10px;
+  width: 100%;
+  padding: 1%;
+}
+
+div.pic {
+  float: left;
+}
+
+div.paragraph {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  width: 60%;
+  float:right;
+}
+
+
 div.info {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 18pt;
