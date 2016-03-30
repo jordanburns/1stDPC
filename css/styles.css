@@ -17,12 +17,12 @@ div.product {
 
 div.picture {
   float: left;
-  margin-left:8%;
+  margin-left:7%;
 }
 
 div.paragraph {
   margin-left: 10px;
-  margin-right: 8%;
+  margin-right: 6%;
   text-align: center;
   width: 60%;
   float:right;
