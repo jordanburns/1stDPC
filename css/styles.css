@@ -6,6 +6,13 @@ body {
   color: white;
 }
 
+p.para {
+  line-height: 15pt;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
 div.product{
   width: 100%;
   padding: 1%;
