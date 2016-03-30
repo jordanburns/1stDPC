@@ -10,9 +10,6 @@ div.product {
   margin: 10px;
   width: 100%;
   padding: 1%;
-  border:2px;
-  border-style:solid;
-  border-color:red;
 }
 
 div.picture {
