@@ -10,16 +10,19 @@ div.product {
   margin: 10px;
   width: 100%;
   padding: 1%;
+  border:2px;
+  border-style:solid;
+  border-color:red;
 }
 
 div.picture {
   float: left;
-  margin-left:10%;
+  margin-left:8%;
 }
 
 div.paragraph {
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 8%;
   text-align: center;
   width: 60%;
   float:right;
