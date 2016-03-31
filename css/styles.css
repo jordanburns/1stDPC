@@ -16,7 +16,7 @@ div.picturebox{
   float:left;
   width:35%;
   height:275px;
-  border: 2px solid red;
+  border: 2px #0000A3;
   min-width:304px;
 } 
 img.picture{
