@@ -6,36 +6,64 @@ body {
   color: white;
 }
 
+div.product{
+  width: 100%;
+  height: 275px;
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+  }
+div.picturebox{
+  float:left;
+  width:35%;
+  height:275px;
+  border: 2px solid red;
+  min-width:304px;
+} 
+img.picture{
+  width: 300px;
+  height: 250px;
+  border: 3px solid red;
+  margin: 0px 10px;
+  float:left;
+    }
+
+	
+.wrapper {
+   display: table;
+   width: 100%;
+   padding: 1%;
+   height: 258px;
+  
+}
+
+.c {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+   font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+.p {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+   font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+	top:50%;
+	height:275px;
+}
+
+
+
+
+
 p.para {
   line-height: 15pt;
   text-align: center;
   margin-left: 4%;
   margin-right: 4%;
 }
-
-div.product{
-  width: 100%;
-  padding: 1%;
-  margin:5px;
-  margin-top:30px;
-  margin-bottom:30px;
-}
-
-div.picture{
-  float: left;
-  margin-left:4%;
-}
-
-p.paragraph{
-  margin-left: 10px;
-  margin-right: 6%;
-  text-align: center;
-  width: 60%;
-  float:right;
-  height: 250px;
-  margin:auto 0;
-}
-
 
 div.info {
 	font-family: Tahoma, Geneva, sans-serif;
