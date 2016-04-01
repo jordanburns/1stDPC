@@ -442,7 +442,7 @@ h1 {
     background:transparent url(loading.gif) no-repeat 50% 50%;
     filter: alpha(opacity=60);
     opacity:0.6;
-    position:;
+    position:relative;
     left:0;
     top:0; 
     z-index:9;
