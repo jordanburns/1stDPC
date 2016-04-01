@@ -358,8 +358,8 @@ h1 {
 
 #slider {
 	background:#fff url(loading.gif) no-repeat 50% 50%;
-	position:relative;
-	margin:0 auto; /*center-aligned*/
+	position:absolute;
+	margin:300 auto; /*center-aligned*/
     transform: translate3d(0,0,0);
     box-shadow: 0px 1px 5px #999999;
 }
