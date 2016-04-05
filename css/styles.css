@@ -63,11 +63,12 @@ p.para {
   text-align: center;
   margin-left: 4%;
   margin-right: 4%;
+  font-size:15pt;
 }
 
 div.info {
 	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 22pt;
+	font-size: 18pt;
 	text-align: center;
 	margin-top: 4%;
 }
