@@ -89,7 +89,7 @@ h1 {
   text-align: center;
   background-color:#a30000;/*red*/
   clear:left;
-  text-shadow: #0053A0;
+  text-shadow: -1px 0 #0053A0, 0 1px #0053A0, 1px 0 #0053A0, 0 -1px #0053A0;
   }
   
 #logo{
