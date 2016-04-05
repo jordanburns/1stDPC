@@ -90,7 +90,14 @@ h1 {
   background-color:#a30000;/*red*/
   clear:left;
   }
-  
+  footer {
+  margin: 0px;
+  color: #ffffff; /*white*/
+  font-family:'Phosphate Pro', serif;
+  text-align: center;
+  background-color:#a30000;/*red*/
+  clear: left;
+  }
 #logo{
   width:5%;
   min-width:60px;
