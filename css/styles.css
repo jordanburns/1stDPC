@@ -26,16 +26,22 @@ img.picture{
   margin: .65em 5em;
   float:left;
     }
-
+.wrapper2 {
+  display: table;
+   width: 50%;
+   height: 258px;
+   float:right;
+}
 	
 .wrapper {
    display: table;
    width: 100%;
    height: 258px;
+   float: left;
 }
 
 .c {
-   display: table-cell;
+   display: inline;
    text-align: center;
    vertical-align: middle;
    font-family: Georgia, "Times New Roman", Times, serif;
@@ -50,7 +56,7 @@ img.picture{
     font-style: italic;
 	top:50%;
 	height:275px;
-	padding-right:5em;
+	padding-right:3em;
 }
 
 
