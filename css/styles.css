@@ -34,12 +34,6 @@ img.picture{
    height: 258px;
 }
 
-.wrapper2 {
-  display: table;
-   width: 50%;
-   height: 258px;
-   float:right;
-
 .c {
    display: table-cell;
    text-align: center;
