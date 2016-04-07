@@ -26,6 +26,7 @@ img.picture{
   margin: .65em 5em;
   float:left;
   vertical-align: middle;
+  display: table-cell;
     }
 .wrapper2 {
   display: table;
