@@ -29,7 +29,7 @@ img.picture{
 .wrapper2 {
   display: table;
    width: 50%;
-   height: 258px;
+   height: auto;
    float:right;
 }
 	
