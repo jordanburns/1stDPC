@@ -37,6 +37,7 @@ img.picture{
   float:left;
   vertical-align: middle;
   display: table-cell;
+
     }
 
 .wrapper2 {
@@ -59,6 +60,7 @@ img.picture{
    vertical-align: middle;
    font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
+    width:40%;
 }
 
 .p {
@@ -74,13 +76,13 @@ img.picture{
 
 
 .p1 {
-   display: table-cell;
+   display: inline;
    text-align: center;
    vertical-align: middle;
    font-family: Georgia, "Times New Roman", Times, serif;
    font-style: italic;
    height:275px;
-   float:right;
+   width:60%;
 }
 
 
