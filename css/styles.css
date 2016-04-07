@@ -29,7 +29,6 @@ img.picture{
   display: table-cell;
   top:50%;
   height:275px;
-  padding-right:3em;
     }
 
 .wrapper2 {
@@ -59,10 +58,10 @@ img.picture{
    text-align: center;
    vertical-align: middle;
    font-family: Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
-	top:50%;
-	height:275px;
-	padding-right:3em;
+   font-style: italic;
+   top:50%;
+   height:275px;
+   padding-right:3em;
 }
 
 
