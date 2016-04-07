@@ -73,7 +73,13 @@ img.picture{
 }
 
 
-
+.p1 {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-style: italic;
+}
 
 
 p.para {
