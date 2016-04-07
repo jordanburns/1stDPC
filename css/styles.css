@@ -27,7 +27,11 @@ img.picture{
   float:left;
   vertical-align: middle;
   display: table-cell;
+  top:50%;
+  height:275px;
+  padding-right:3em;
     }
+
 .wrapper2 {
   display: table;
    width: 50%;
