@@ -25,6 +25,7 @@ img.picture{
   border: 3px solid #A30000;/*red*/
   margin: .65em 5em;
   float:left;
+  vertical-align: middle;
     }
 .wrapper2 {
   display: table;
