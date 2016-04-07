@@ -27,7 +27,9 @@ img.picture{
   float:left;
   vertical-align: middle;
   display: table-cell;
-  top:50%;
+  margin-top:50%;
+  margin-bottom: 50%;
+  
     }
 
 .wrapper2 {
