@@ -11,7 +11,8 @@ body {
   height:2.7em;
   width:100%;
   text-align: center;
-  color: blue;
+  color: #333333;
+  background-color: #FFFFFF;
 }
 
 div.product{
