@@ -288,7 +288,7 @@ h1 {
 							#nav li ul li a:hover,
 							#nav li ul:not( :hover ) li.active a
 							{
-								background-color: #001933; /*dark grey*/
+								background-color: #333333; /*dark grey*/
 							}
 
 
