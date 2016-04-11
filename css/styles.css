@@ -9,9 +9,11 @@ body {
 .title{
   font-weight: bold;
   font: Verdana, Geneva, sans-serif;
-  color: #A30000;
+  color: #0053A0;
   text-align: center;
   font-size: 24pt;
+  text-decoration: underline;
+  text-decoration-color: white;
 }
 
 .foot{
