@@ -1,9 +1,9 @@
 body { 
   max-width: 1600px;
-  background-color: #333333; /*dark grey*/
+  background-color: white; /*dark grey*/
   padding:0em;
   margin:0px;
-  color: white;
+  color: #333333;
 }
 
 .foot{
@@ -12,7 +12,7 @@ body {
   width:100%;
   text-align: center;
   color: #FFFFFF;
-  background-color: #0053a0;
+  background-color: #333333;
   font-style: bold;
 }
 
