@@ -13,7 +13,7 @@ body {
   text-align: center;
   font-size: 24pt;
   text-decoration: underline;
-  text-decoration-color: white;
+  border-bottom: 1px white;
 }
 
 .foot{
