@@ -12,6 +12,7 @@ body {
   color: #0053A0;
   text-align: center;
   font-size: 24pt;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .foot{
