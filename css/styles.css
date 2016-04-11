@@ -1,6 +1,6 @@
 body { 
   max-width: 1600px;
-  background-color: #003e80; /*dark grey*/
+  background-color: 333333; /*dark grey*/
   padding:0em;
   margin:0px;
   color: white;
@@ -12,7 +12,7 @@ body {
   width:100%;
   text-align: center;
   color: white;
-  background-color: #333333;
+  background-color: #003e80;
   font-style: bold;
 }
 
