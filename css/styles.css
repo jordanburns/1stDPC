@@ -1,9 +1,16 @@
 body { 
   max-width: 1600px;
-  background-color: 333333; /*dark grey*/
+  background-color: #333333; /*dark grey*/
   padding:0em;
   margin:0px;
   color: white;
+}
+
+.title{
+  font-weight: bold;
+  font: Verdana, Geneva, sans-serif;
+  color: #0053A0;
+  text-align: center;
 }
 
 .foot{
