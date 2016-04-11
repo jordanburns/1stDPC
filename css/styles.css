@@ -6,6 +6,13 @@ body {
   color: white;
 }
 
+.title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 24pt;
+  color: #0053A0;
+}
+
 .foot{
   line-height: 0.7em;
   height:2.8em;
