@@ -1,6 +1,6 @@
 body { 
   max-width: 1600px;
-  background-color: #001933; /*dark grey*/
+  background-color: #333333; /*dark grey*/
   padding:0em;
   margin:0px;
   color: white;
@@ -11,6 +11,7 @@ body {
   font: Verdana, Geneva, sans-serif;
   color: #0053A0;
   text-align: center;
+  font-size: 24pt;
 }
 
 .foot{
