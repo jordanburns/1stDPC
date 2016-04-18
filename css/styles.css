@@ -92,7 +92,7 @@ img.picture{
    text-align: center;
    vertical-align: middle;
    font-family: Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
+    font-style: italic, bold;
     width:40%;
     color: #0053ad;
 }
