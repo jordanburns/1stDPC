@@ -9,7 +9,7 @@ body {
 .ul{
 	text-align: center;
 	font-size: 20pt;
-	color: #A30000;
+	color: #0053ad;
 	font: font-family: Georgia, "Times New Roman", Times, serif;
 	line-height: 20pt;
 }
@@ -17,7 +17,7 @@ body {
 .title{
   font-weight: bold;
   font: Verdana, Geneva, sans-serif;
-  color: #A30000;
+  color: #0053ad;
   text-align: center;
   font-size: 24pt;
   text-decoration: underline;
@@ -102,7 +102,7 @@ img.picture{
    font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
     width:40%;
-    color: #A30000;
+    color: #0053ad;
 }
 
 .c {
