@@ -77,9 +77,16 @@ img.picture{
   float:left;
   vertical-align: middle;
   display: table-cell;
-
     }
-
+  img.bigpicture{
+  width: 600px;
+  height: 500px;
+  border: 3px solid #A30000;/*red*/
+  margin: .65em 2em;
+  float:left;
+  vertical-align: middle;
+  display: table-cell;
+    }
 .wrapper2 {
   display: table;
    width: 50%;
