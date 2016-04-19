@@ -92,7 +92,7 @@ img.picture{
    width: 100%;
    height: 258px;
    float: left;
-   background-color: #333333;
+   background-color: white;
 }
 
 .c1 {
@@ -102,7 +102,7 @@ img.picture{
    font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
     width:40%;
-    color: white;
+    color: #0053ad;
 }
 
 .c {
@@ -577,3 +577,7 @@ body {
    height:60px;   /* Height of the footer */
    background:#6cf;
 }
+#outerdiv {border: 1px solid blue; width: 99%; height: 99%; position:fixed; text-align:center}
+
+#map_go {border: 1px solid red; width: 100%; height: 100%; margin:0px auto; display:inline-block}
+
