@@ -577,7 +577,5 @@ body {
    height:60px;   /* Height of the footer */
    background:#6cf;
 }
-#outerdiv {border: 1px solid blue; width: 99%; height: 99%; position:fixed; text-align:center}
 
-#map_go {border: 1px solid red; width: 100%; height: 100%; margin:0px auto; display:inline-block}
 
