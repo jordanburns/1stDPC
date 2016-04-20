@@ -52,8 +52,39 @@
 </nav>
 	<!-- navigation menu END -->
 		<h1 id="title"> Contact Us </h1>
-<div class="wrapper"> 
-<iframe allowfullscreen=" frameborder="red" height="450" id="google" name="google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.5871924685925!2d-93.29716258449929!3d37.04348796166603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cf6fa96ee2a347%3A0xd627f51166d458cb!2sDiversified+Plastics+Corporation!5e0!3m2!1sen!2sus!4v1458654688095" width="600" bordercolor=#A30000></iframe>
+<form action="mailer.php" method="post" name="form1" id="form1" style="margin:0px; font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px; width:300px;" onsubmit="MM_validateForm('from','','RisEmail','subject','','R','verif_box','','R','message','','R');return document.MM_returnValue">
+
+Your Name:<br />
+<input name="name" type="text" id="name" style="padding:2px; border:1px solid #CCCCCC; width:180px; height:14px; font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;" value="<?php echo $_GET['name'];?>"/>
+<br />
+<br />
+
+Your e-mail:<br />
+<input name="from" type="text" id="from" style="padding:2px; border:1px solid #CCCCCC; width:180px; height:14px; font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;" value="<?php echo $_GET['from'];?>"/>
+<br />
+<br />
+
+Subject:<br />
+<input name="subject" type="text" id="subject" style="padding:2px; border:1px solid #CCCCCC; width:180px; height:14px;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;" value="<?php echo $_GET['subject'];?>"/>
+<br />
+<br />
+
+Type verification image:<br />
+<input name="verif_box" type="text" id="verif_box" style="padding:2px; border:1px solid #CCCCCC; width:180px; height:14px;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;"/>
+<img src="verificationimage.php?<?php echo rand(0,9999);?>" alt="verification image, type it in the box" width="50" height="24" align="absbottom" /><br />
+<br />
+
+<!-- if the variable "wrong_code" is sent from previous page then display the error field -->
+<?php if(isset($_GET['wrong_code'])){?>
+<div style="border:1px solid #990000; background-color:#D70000; color:#FFFFFF; padding:4px; padding-left:6px;width:295px;">Wrong verification code</div><br /> 
+<?php ;}?>
+
+Message:<br />
+<textarea name="message" cols="6" rows="5" id="message" style="padding:2px; border:1px solid #CCCCCC; width:300px; height:100px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;"><?php echo $_GET['message'];?></textarea>
+<noscript><a href="http://www.thewebhelp.com" style="display:none;">contact form by thewebhelp</a></noscript>
+<input name="Submit" type="submit" style="margin-top:10px; display:block; border:1px solid #000000; width:100px; height:20px;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; padding-left:2px; padding-right:2px; padding-top:0px; padding-bottom:2px; line-height:14px; background-color:#EFEFEF;" value="Send Message"/>
+</form>  
+
 <footer class="foot">
   <p>Copyright 2016</p>
   <p>Nixa High School Jordan Burns 1st Hour</p>
