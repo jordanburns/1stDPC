@@ -584,5 +584,5 @@ body {
    height:60px;   /* Height of the footer */
    background:#6cf;
 }
-
+mapcanvas.style.border = '10px solid #0b0';
 
