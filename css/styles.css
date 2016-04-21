@@ -585,4 +585,10 @@ body {
    background:#6cf;
 }
 mapcanvas.style.border = '10px solid #0b0';
+var mapcanvas = document.createElement('div');
+mapcanvas.id = 'mapcontainer';
+mapcanvas.style.height = '250px';
+mapcanvas.style.width = 'auto';
+mapcanvas.style.style='border:10px solid #0b0';
+document.querySelector('article').appendChild(mapcanvas);
 
