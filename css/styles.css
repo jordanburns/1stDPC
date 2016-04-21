@@ -7,11 +7,17 @@ body {
 }
 
 #mig{
-color: white;	
+color: white;
+text-decoration: none;
+font-size: 12pt;
+font: Verdana, Geneva, sans-serif;
 }
 
 #quality{
-color: white;	
+color: #A30000;
+text-decoration: none;
+font-size: 18pt;
+font: 100 25px/1.3 'Lobster Two', Helvetica, sans-serif;
 }
 
 .ul{
