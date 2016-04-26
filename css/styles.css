@@ -21,6 +21,7 @@ body {
 	font: Verdana, Geneva, sans-serif;
 	font-style: normal;
 	float: center;
+	vertical-align: top;
 }
 #quality{
 	color: #A30000;
