@@ -14,7 +14,14 @@ body {
 	font-style: normal;
 	vertical-align: center;
 }
-
+#emig{
+	color: white;
+	text-decoration: none;
+	font-size: 18pt;
+	font: Verdana, Geneva, sans-serif;
+	font-style: normal;
+	vertical-align: left;
+}
 #quality{
 	color: #A30000;
 	text-decoration: none;
