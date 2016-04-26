@@ -30,6 +30,11 @@ body {
 	vertical-align: center;
 }
 
+#comp{
+	height: 200px;
+	width: 200px;
+}
+
 .ul{
 	text-align: center;
 	font-size: 20pt;
