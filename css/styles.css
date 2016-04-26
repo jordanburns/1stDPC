@@ -24,7 +24,6 @@ body {
 	position: relative;
 	vertical-align: text-top;
 	left: 50px;
-	max-width: 250px;
 }
 #quality{
 	color: #A30000;
@@ -67,6 +66,7 @@ body {
 	text-align: center;
 	font-size: 24pt;
 	text-decoration: underline;
+	float: right;
 }
 
 .foot{
