@@ -23,6 +23,7 @@ body {
 	float: center;
 	position: relative;
 	vertical-align: text-top;
+	left: 700px;
 }
 #quality{
 	color: #A30000;
