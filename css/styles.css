@@ -20,10 +20,10 @@ body {
 	font-size: 18pt;
 	font: Verdana, Geneva, sans-serif;
 	font-style: normal;
-	float: center;
+	float: left;
 	position: relative;
 	vertical-align: text-top;
-	left: 100px;
+	left: 50px;
 }
 #quality{
 	color: #A30000;
