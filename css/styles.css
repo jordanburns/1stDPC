@@ -65,6 +65,14 @@ body {
 	text-decoration: underline;
 }
 
+#key{
+	color: #0053ad;
+	text-align: center;
+	font-size: 24pt;
+	text-decoration: underline;
+	width: 50%;
+}
+
 .foot{
   line-height: 0.9em;
   height:2.8em;
