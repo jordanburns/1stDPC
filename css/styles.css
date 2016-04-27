@@ -48,10 +48,6 @@ body {
 	width: 50%;
 }
 
-#img{
-	float: right;
-	width:50%;
-}
 
 .title{
   font-weight: bold;
@@ -658,7 +654,7 @@ document.querySelector('article').appendChild(mapcanvas);
 }
 
 .form-row{
-    position: absolute;
+    position: fixed;
     text-align: right;
     margin-bottom: 23px;
 }
