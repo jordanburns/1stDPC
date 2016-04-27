@@ -652,7 +652,7 @@ document.querySelector('article').appendChild(mapcanvas);
 }
 
 .form-row{
-    position: fixed;
+    position: absolute;
     text-align: right;
     margin-bottom: 23px;
 }
