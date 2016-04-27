@@ -43,6 +43,10 @@ body {
 	width: 50%;
 }
 
+#img{
+	float: right;
+}
+
 .title{
   font-weight: bold;
   font: Verdana, Geneva, sans-serif;
@@ -648,8 +652,8 @@ document.querySelector('article').appendChild(mapcanvas);
 }
 
 .form-row{
-    position: fixed;
-    text-align: right;
+    position: relative;
+    text-align: left;
     margin-bottom: 23px;
 }
 
