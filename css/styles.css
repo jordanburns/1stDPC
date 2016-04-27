@@ -25,6 +25,11 @@ body {
 	vertical-align: text-top;
 	max-width:250px;
 }
+
+#bigwrap{
+	width: 100%;
+}
+
 #quality{
 	color: #A30000;
 	text-decoration: none;
@@ -45,6 +50,7 @@ body {
 
 #img{
 	float: right;
+	width:50%;
 }
 
 .title{
@@ -652,7 +658,7 @@ document.querySelector('article').appendChild(mapcanvas);
 }
 
 .form-row{
-    position: absolute;
+    position: fixed;
     text-align: right;
     margin-bottom: 23px;
 }
