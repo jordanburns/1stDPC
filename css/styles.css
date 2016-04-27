@@ -652,8 +652,8 @@ document.querySelector('article').appendChild(mapcanvas);
 }
 
 .form-row{
-    position: relative;
-    text-align: left;
+    position: fixed;
+    text-align: right;
     margin-bottom: 23px;
 }
 
