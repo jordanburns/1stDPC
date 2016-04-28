@@ -6,6 +6,14 @@ body {
   color: #333333;
 }
 
+.c3{
+   display: inline;
+   text-align: center;
+   vertical-align: middle;
+   font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    width:40%;
+
 img.picture3{
   width: 150px;
   height: 150px;
