@@ -13,6 +13,7 @@ img.picture2{
   margin: 5em;
   vertical-align: middle;
   display: table-cell;
+  float: center;
     }
 
 img.picture3{
@@ -20,7 +21,7 @@ img.picture3{
   height: 150px;
   border: 3px solid #A30000;/*red*/
   margin: 5em;
-  float: right;
+  float: center;
   vertical-align: middle;
   display: table-cell;
     }
