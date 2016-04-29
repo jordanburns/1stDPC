@@ -15,8 +15,18 @@ img.picture2{
   display: table-cell;
     }
 
+img.picture3{
+  width: 150px;
+  height: 150px;
+  border: 3px solid #A30000;/*red*/
+  margin: 5em;
+  float: right;
+  vertical-align: middle;
+  display: table-cell;
+    }
+
 #mig{
-	color: #0053ad;
+	color: white;
 	text-decoration: none;
 	font-size: 18pt;
 	font: Verdana, Geneva, sans-serif;
@@ -24,7 +34,7 @@ img.picture2{
 	vertical-align: text-top;
 }
 #emig{
-	color: #0053ad;
+	color: white;
 	text-decoration: none;
 	font-size: 18pt;
 	font: Verdana, Geneva, sans-serif;
