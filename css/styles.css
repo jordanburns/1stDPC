@@ -30,7 +30,19 @@ img.picture3{
 	float: left;
 	border: 3px solid #A30000;/*red*/
 	margin: 5em;
+}
+
+#original{
+	 line-height: 20pt;
+  	text-align: left;
+  	margin-left: 4%;
+  	margin-right: 4%;
+  	font-size:15pt;	
+	}
 	
+#oem{
+	width: 50%;
+	display: inline;
 }
 
 #mig{
@@ -256,6 +268,7 @@ h1 {
   background-color:#a30000;/*red*/
   clear:left;
   }
+  
   footer {
   margin: 0px;
   color: #ffffff; /*white*/
@@ -264,6 +277,7 @@ h1 {
   background-color:#a30000;/*red*/
   clear: left;
   }
+
 #logo{
   width:5%;
   min-width:60px;
