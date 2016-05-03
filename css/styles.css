@@ -32,7 +32,7 @@ img.picture3{
   border: 3px solid #A30000;/*red*/
   margin: 5em;
   vertical-align: center;
-  display: table-cell;
+  display: inline;
   float: right;
     }
 
