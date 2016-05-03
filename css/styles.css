@@ -26,6 +26,26 @@ img.picture3{
   display: table-cell;
     }
 
+img.picture4{
+  width: 250px;
+  height: 250px;
+  border: 3px solid #A30000;/*red*/
+  margin: 0em;
+  vertical-align: center;
+  display: table-cell;
+  float: left;
+    }
+
+img.picture5{
+  width: 250px;
+  height: 250px;
+  border: 3px solid #A30000;/*red*/
+  margin: 0em;
+  float: center;
+  vertical-align: middle;
+  display: table-cell;
+    }
+
 #img{
 	float: left;
 	border: 3px solid #A30000;/*red*/
