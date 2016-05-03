@@ -54,7 +54,8 @@ img.picture3{
 }
 
 #bigwrap{
-	width: 100%;
+	width: 60%;
+	display: inline;
 }
 
 #quality{
