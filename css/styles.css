@@ -32,7 +32,7 @@ img.picture3{
   border: 3px solid #A30000;/*red*/
   margin: 5em;
   vertical-align: center;
-  display: inline;
+  display: table-cell;
   float: right;
     }
 
@@ -47,7 +47,7 @@ img.picture3{
   	text-align: left;
   	margin-left: 4%;
   	margin-right: 4%;
-  	font-size:15pt;	
+  	font-size:15pt;
 	}
 	
 #oem{
