@@ -5,44 +5,12 @@
    		<title>DPC</title>
   	<link type="text/css" rel="stylesheet" href="css/styles.css" media="screen">
   	<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
-  		<script type='text/javascript'>
-		//<![CDATA[ 
-		$(function() {
-    // Stick the #nav to the top of the window
-    var nav = $('#nav');
-    var navHomeY = nav.offset().top;
-    var isFixed = false;
-    var $w = $(window);
-    $w.scroll(function() {
-        var scrollTop = $w.scrollTop();
-        var shouldBeFixed = scrollTop > navHomeY;
-        if (shouldBeFixed && !isFixed) {
-            nav.css({
-                position: 'fixed',
-                top: 0,
-                left: nav.offset().left,
-                width: nav.width()
-            });
-            isFixed = true;
-        }
-        else if (!shouldBeFixed && isFixed)
-        {
-            nav.css({
-                position: 'static'
-            });
-            isFixed = false;
-        }
-    });
-});
-​
-		//]]>  
-		</script>
-
+  	
     </head>
 <body>
 	<div id="pagewrap">
 	<!-- navigation menu  START-->
-		<!-- navigation menu  START-->
+	<!-- navigation menu  START-->
 	<div>
 	<div id="logo"><a href="index.html"><img src="images/bannerlogo.png"/></a></div>
 <nav id="nav" role="navigation">
@@ -71,8 +39,8 @@
 		<li class="active">
 			<a href="mig.html" aria-haspopup="true"><span>Forms & Docs</span></a>
 			<ul>
-				<li class="active"><a href="mig.html">MIG</a></li>
-				<li><a href="environmental.html">Environment</a></li>
+				<li><a href="mig.html">MIG</a></li>
+				<li class="active"><a href="environmental.html">Environment</a></li>
 			</ul>
 		</li>
 		<li>
@@ -84,7 +52,10 @@
 	</ul>
 </nav>
 	<!-- navigation menu END -->
-  <div class="wrapper">
+	
+		<h1> Environmental </h1>
+		
+		  <div class="wrapper">
    <div class="c"><img class="bigpicture" src="images/environmental.jpg" alt=""/><p class="p1">
    	
 	<p id="quality">Our Environmental policy:</p>
@@ -94,6 +65,7 @@
 <p id="emig">Through our</p>
 <p id="emig">Hands</p>
 </div> </div>
+<footer class="foot">
   <p>Copyright 2016</p>
   <p>Nixa High School Jordan Burns 1st Hour</p>
 </footer>
