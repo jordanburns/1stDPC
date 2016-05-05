@@ -44,10 +44,10 @@ img.picture3{
 }
 
 #original{
-	line-height: 30pt;
+	line-height: 33pt;
   	text-align: left;
   	margin-left: 4%;
-  	margin-right: 6%;
+  	margin-right: 10%;
   	font-size:24pt;
   	float: left;
     	width: 50%;
@@ -59,7 +59,7 @@ img.picture3{
 #oem{
 	width: 50%;
 	display: inline;
-	margin-right: 6%;
+	margin-right: 10%;
 }
 
 #mig{
