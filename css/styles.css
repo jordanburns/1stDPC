@@ -44,15 +44,16 @@ img.picture3{
 }
 
 #original{
-	 line-height: 20pt;
+	 line-height: 24pt;
   	text-align: left;
   	margin-left: 4%;
   	margin-right: 4%;
-  	font-size:15pt;
+  	font-size:24pt;
   	float: left;
     	width: 50%;
 	margin-top: 8%;
     	color: #0053ad;
+    	font: Verdana, Geneva, sans-serif;
 	}
 	
 #oem{
