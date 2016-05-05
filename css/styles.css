@@ -50,17 +50,17 @@ img.picture3{
   	margin-right: 10%;
   	font-size:24pt;
   	float: left;
-    	width: 50%;
-	margin-top: 8%;
+    	width: 60%;
     	color: #0053ad;
     	font: Verdana, Geneva, sans-serif;
-    	margin-top:2%;
+    	margin-top:4%;
 	}
 	
 #oem{
-	width: 50%;
+	width: 40%;
 	display: inline;
 	margin-right: 10%;
+	margin-top: 4%;
 }
 
 #mig{
@@ -152,7 +152,7 @@ img.picture3{
   color: #FFFFFF;
   background-color: #0053ad;
   font-style: bold;
-  margin-top: 100%;
+  margin-top: 50%;
 }
 
 div.product{
