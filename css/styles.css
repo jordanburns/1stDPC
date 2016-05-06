@@ -76,7 +76,11 @@ img.picture3{
 	text-decoration: none;
 	font-size: 18pt;
 	font: Verdana, Geneva, sans-serif;
-	float: right;
+	font-style: normal;
+	float: left;
+	position: relative;
+	vertical-align: text-top;
+	max-width:250px;
 }
 
 #bigwrap{
@@ -725,7 +729,7 @@ document.querySelector('article').appendChild(mapcanvas);
 
 .form-row{
     position: relative;
-    text-align: left;
+    text-align: right;
     margin-bottom: 23px;
 }
 
