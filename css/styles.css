@@ -729,7 +729,7 @@ document.querySelector('article').appendChild(mapcanvas);
 
 .form-row{
     position: relative;
-    text-align: right;
+    text-align: left;
     margin-bottom: 23px;
 }
 
