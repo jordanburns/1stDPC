@@ -9,6 +9,18 @@ body {
 fbla.center {
     display: block;
     margin: 0 auto;
+    position: fixed;
+    top:15%;
+    left: 50%;
+    margin-left: -267px;
+} 
+
+html {
+    background: url(images/fbla1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 img.picture2{
