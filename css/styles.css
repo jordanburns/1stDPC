@@ -9,7 +9,7 @@ body {
 fbla.center {
     display: block;
     margin: 0 auto;
-    position: fixed;
+}
 
 img.picture2{
   width: 250px;
@@ -302,6 +302,19 @@ h1 {
   background-color:#a30000;/*red*/
   clear: left;
   }
+
+#logo{
+  width:5%;
+  min-width:60px;
+  height:60px;
+  margin: 0;
+  display:inline;
+  float:left;
+  background-image: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);/*dark grey, darker grey*/
+  background: linear-gradient(top, #3c3c3c 0%, #222222 100%);/*dark grey, darker grey*/
+  background: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);/*dark grey, darker grey*/
+  background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);/*dark grey, darker grey*/
+  }
   
   img.pageheader{
   	width:100%;
@@ -313,7 +326,7 @@ h1 {
 */
 		#nav
 		{
-			width:50%; /* 1000 */
+			width:95%; /* 1000 */
 			height: 60px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: 100;
