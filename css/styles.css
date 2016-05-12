@@ -291,42 +291,23 @@ h1 {
   font-family:'Phosphate Pro', serif;
   text-align: center;
   background-color:#a30000;/*red*/
-  clear:left;
+  clear:right;
   }
   
-  footer {
-  margin: 0px;
-  color: #ffffff; /*white*/
-  font-family:'Phosphate Pro', serif;
-  text-align: center;
-  background-color:#a30000;/*red*/
-  clear: left;
+  
+
+  #logo1 {
+    width: 20%;
+ position: absolute;
+   left:-5px;
+   z-index:200;
   }
 
-#logo{
-  width:5%;
-  min-width:60px;
-  height:60px;
-  margin: 0;
-  display:inline;
-  float:left;
-  background-image: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);/*dark grey, darker grey*/
-  background: linear-gradient(top, #3c3c3c 0%, #222222 100%);/*dark grey, darker grey*/
-  background: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);/*dark grey, darker grey*/
-  background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);/*dark grey, darker grey*/
-  }
-  
-  img.pageheader{
-  	width:100%;
-  	height:250px;
-  }
 /*-- NAV BAR --*/
-/*
-	AUTHOR: Osvaldas Valutis, www.osvaldas.info
-*/
+
 		#nav
 		{
-			width:95%; /* 1000 */
+			width:65%; /* 1000 */
 			height: 60px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: 100;
@@ -335,7 +316,7 @@ h1 {
 			left: 0%;
 			margin: 0 auto; /* 30 480 */
 			z-index:11;
-			float:left;
+			float:right;
 			display:inline;
 		}
 
@@ -351,15 +332,15 @@ h1 {
 			}
 				#nav li a
 				{
-					color: #fff; /*white*/
+					color: #0053A0; /*Blue*/
 					display: block;
 					text-decoration: none;
 				}
 				#nav li a:active
 				{
-					background-color: #c00 !important; /*red*/
+					background-color: #fff !important; /*white*/
 				}
-
+   /*
 			#nav span:after
 			{
 				width: 0;
@@ -383,10 +364,7 @@ h1 {
 			{ 
 				height: 3.75em; /* 60 */
 				list-style-type: none;
-				background-image: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%); /*dark grey, darker grey*/
-				background: linear-gradient(top, #3c3c3c 0%, #222222 100%); /*dark grey, darker grey*/
-				background: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%); /*dark grey, darker grey*/
-				background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%); /*dark grey, darker grey*/
+				background-color: #fff;
 				margin:0px;
     
 			}
@@ -407,14 +385,18 @@ h1 {
 						line-height: 2.5em; /* 60 (24) */
 						text-align: center;
 					}
+        
+        /* BORDER ON NAV BAR */ 
 						#nav > ul > li:not( :last-child ) > a
 						{
-							border-right: 1px solid #000000; /*black*/
+							border-right: 1px solid #0053A0; /*Blue*/
 						}
 						#nav > ul > li:hover > a,
-						#nav > ul:not( :hover ) > li.active > a
+					/*HOVER*/	
+            #nav > ul:not( :hover ) > li.active > a
 						{
-							background-color: #a30000;/*red*/
+							background-color: #0053A0;/*Blue*/
+              color: #fff; /* White */
 						}
 
 
@@ -422,7 +404,7 @@ h1 {
 
 				#nav li ul
 				{
-					background-color: #aa0000; /*red*/
+					background-color: #fff; /*white*/
 					display: none;
 					position: absolute;
 					top: 100%;
@@ -447,7 +429,8 @@ h1 {
 							#nav li ul li a:hover,
 							#nav li ul:not( :hover ) li.active a
 							{
-								background-color: #333333; /*dark grey*/
+								background-color: #0053A0; /*Blue*/
+                color: #fff; /* White */
 							}
 
 
@@ -455,9 +438,10 @@ h1 {
 		{
 			#nav
 			{
-				width: 100%;
+				width: 85%;
 				position: static;
 				margin: 0;
+        float: right;
 			}
 		}
 
