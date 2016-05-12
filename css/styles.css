@@ -311,6 +311,19 @@ h1 {
 /*
 	AUTHOR: Osvaldas Valutis, www.osvaldas.info
 */
+
+	#logo{
+  width:5%;
+  min-width:60px;
+  height:60px;
+  margin: 0;
+  display:inline;
+  float:left;
+  background-image: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);/*dark grey, darker grey*/
+  background: linear-gradient(top, #3c3c3c 0%, #222222 100%);/*dark grey, darker grey*/
+  background: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);/*dark grey, darker grey*/
+  background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);/*dark grey, darker grey*/
+  }
 		#nav
 		{
 			width:50%; /* 1000 */
