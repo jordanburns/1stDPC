@@ -303,16 +303,7 @@ h1 {
   clear: left;
   }
   
-  img.pageheader{
-  	width:100%;
-  	height:250px;
-  }
-/*-- NAV BAR --*/
-/*
-	AUTHOR: Osvaldas Valutis, www.osvaldas.info
-*/
-
-	#logo{
+  #logo{
   width:5%;
   min-width:60px;
   height:60px;
@@ -324,6 +315,16 @@ h1 {
   background: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);/*dark grey, darker grey*/
   background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);/*dark grey, darker grey*/
   }
+  
+  img.pageheader{
+  	width:100%;
+  	height:250px;
+  }
+/*-- NAV BAR --*/
+/*
+	AUTHOR: Osvaldas Valutis, www.osvaldas.info
+*/
+
 		#nav
 		{
 			width:50%; /* 1000 */
