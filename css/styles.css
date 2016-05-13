@@ -297,7 +297,8 @@ h1 {
   
 
   #logo1 {
-    width: 20%;
+    width: 30%;
+    margin-left: 5%;
  position: absolute;
    left:-5px;
    z-index:200;
